@@ -1,0 +1,18 @@
+---
+layout: page
+title: Work Samples
+permalink: /work/
+---
+
+<h2 class="title">Work Samples</h2>
+
+<ul class="codepens">
+	{% for pen in site.data.codepens %}
+		<li class="pen">		
+			<h3 class="pen-title"> {{ pen.title }} </h3>
+			{{ pen.code }}
+		</li>
+	{% endfor %}
+</ul>
+
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

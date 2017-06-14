@@ -1,0 +1,15 @@
+.codepens {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	.pen{
+		padding: 1em 0;
+		margin-top: 1em;
+		border-top: 1px solid #e8e8e8;
+	}
+	.pen-title {
+		text-align: center;
+		font-weight: 300;
+	}
+}
