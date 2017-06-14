@@ -1,20 +1,24 @@
 .wrapper.content {
 	padding-top: 1em;
 	padding-bottom: 1em;
+	p {
+		font-size: 1.1em;
+    	font-weight: 300;
+	}
 }
 
 .title {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 800;
-	color: #999;
+	color: #424242;
+	font-size: 2em;
 }
 .lobster{
 	font-family: 'Lobster', cursive;
+	font-size: 2em;
+	color: #424242;
 }
 .tangerine{
 	font-family: 'Tangerine', cursive;
-}
-p{
-	font-size:2em;
 }
