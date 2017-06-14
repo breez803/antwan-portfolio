@@ -3,5 +3,16 @@ layout: page
 title: Work Samples
 permalink: /work/
 ---
-<p data-height="265" data-theme-id="0" data-slug-hash="PWPdje" data-default-tab="js,result" data-user="breez803" data-embed-version="2" data-pen-title="Weather API" class="codepen">See the Pen <a href="https://codepen.io/breez803/pen/PWPdje/">Weather API</a> by Antwan Telford (<a href="https://codepen.io/breez803">@breez803</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+<h2 class="title">Work Samples</h2>
+
+<ul class="codepens">
+	{% for pen in site.data.codepens %}
+		<li class="pen">		
+			<h3 class="pen-title"> {{ pen.title }} </h3>
+			{{ pen.code }}
+		</li>
+	{% endfor %}
+</ul>
+
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
